@@ -89,8 +89,9 @@
 							Клубника в шоколаде
 						</h2>
 						<div class="makeSweeter">
-							Сделаем вашу жизнь слаще.
+							Сделаем вашу жизнь слаще. <br> Мы занимаемся продажей клубники в шоколаде.
 						</div>
+
 						<p class="pars2">
 							Клубника в шоколаде - это уникальное сочетание, которое уже давно стало классикой. Клубника, покрытая шоколадом, не только выглядит аппетитно, но и обладает приятным вкусом.
 						</p>
@@ -410,9 +411,13 @@
 					</div>
 
 					<div class="form">
-						<form action="">
-							<input type="text" placeholder="Имя" class="inform">
-							<input type="number" placeholder="Номер телефона" class="inform">
+						<div class="form">
+						<form action="https://script.google.com/macros/s/AKfycbxX0BUes0RSd374cDHBdK6ZS_QYp4nuDtJCR4UIeQQEOgPt1OqKWERe_M2EmHXphEU/exec" method="POST" class="main_form" id="sheetdb-form" name="submit-to-google-sheet">
+
+							<input type="text" name="Имя" placeholder="Имя" class="inform" required>
+							<input type="number" name="Номер" placeholder="Номер телефона (начиная с 8)" class="inform" required>
+
+							<input type="text" name="Дата" id="dateForm" style="display: none;">
 
 							<div class="s7_select">
 
@@ -420,15 +425,15 @@
 									▶
 								</div>
 
-							<select name="" id="" class="inform">
-								<option value="order1">Клубничная сказка</option>
-								<option value="order2">Спелые линии</option>
-								<option value="order3">Волшебный клад</option>
-								<option value="order4">Chocogrenade</option>
-								<option value="order5">Лесная фантазия</option>
-								<option value="order6">Пышная поляна</option>
-								<option value="order7">Клубничный букет</option>
-								<option value="exclusive">Индивидуальный набор</option>
+							<select name="Заказ" class="inform">
+								<option value="Клубничная сказка">Клубничная сказка</option>
+								<option value="Спелые линии">Спелые линии</option>
+								<option value="Волшебный клад">Волшебный клад</option>
+								<option value="Chocogrenade">Chocogrenade</option>
+								<option value="Лесная фантазия">Лесная фантазия</option>
+								<option value="Пышная поляна">Пышная поляна</option>
+								<option value="Клубничный букет">Клубничный букет</option>
+								<!-- <option value="Индивидуальный набор">Индивидуальный набор</option> -->
 							</select>
 
 							</div>
@@ -467,9 +472,9 @@
 					</div>
 
 					<div class="social">
-						<a href=""><img src="images/icons/instagram.svg"></a>
 						<a href="https://t.me/chocoberrybrd"><img src="images/icons/telegram.svg"></a>
 						<a href="whatsapp://send?text=Hello&phone=+79192022222"><img src="images/icons/whatsapp.svg"></a>
+						<a href=""><img src="images/icons/instagram.svg"></a>
 					</div>
 
 					<div class="last_hero">

@@ -9,7 +9,7 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbxX0BUes0RSd374cDHBdK
 
 			  e.preventDefault()
 			  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-				.then(response => alert("Форма отправлена"))
+				.then(response => alert("Заказ отправлен"))
 				.then(() => {  window.location.reload()})
 				.catch(error => console.error('Ошибка отправки', error.message))
 			})

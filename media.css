@@ -243,6 +243,10 @@
 		justify-content: center;
 	}
 
+	.absolute_arrow{
+		font-size: .9rem;
+	}
+
 }
 
 
